@@ -1,74 +1,38 @@
-# 🏠 House Price Prediction - Task 3 (Internship Project)
+# Dog and Cat Image Classification - Task 3
 
-This project is part of my internship at **Prodigy InfoTech**. The main objective of this task is to build a machine learning model that can predict the price of a house based on several key features such as size, number of rooms, location, etc.
+This repository contains my submission for **Task 3** of the internship at **Prodigy InfoTech**: **Dog vs Cat Image Classification using Machine Learning**.
 
----
+## Objective
+To build an image classification model that can accurately distinguish between images of dogs and cats using a supervised machine learning algorithm.
 
-## 📌 Objective
+## Technologies Used
+- Python
+- NumPy
+- Pandas
+- OpenCV (for image loading and preprocessing)
+- Scikit-learn (for SVM model and evaluation metrics)
+- Matplotlib (for visualization)
 
-- Predict housing prices using regression techniques.
-- Perform data cleaning, preprocessing, and exploratory data analysis (EDA).
-- Train and evaluate regression models for better prediction accuracy.
+## Dataset
+A labeled collection of cat and dog images. The dataset was cleaned, resized, converted to grayscale, flattened, and split into training and testing sets.
 
----
+## Workflow
+1. **Data Loading** – Loaded images of dogs and cats using OpenCV.
+2. **Preprocessing** – 
+   - Resized images to a fixed size  
+   - Converted images to grayscale  
+   - Flattened image arrays for model input  
+   - Encoded labels as binary (cat = 0, dog = 1)
+3. **Model Building** – Built and trained an SVM (Support Vector Machine) classifier.
+4. **Model Evaluation** – Evaluated using accuracy score and confusion matrix.
+5. **Prediction** – Predicted class (dog or cat) for new input images.
 
-## 🛠️ Tech Stack
+## Output Visualizations
 
-- **Language**: Python
-- **Libraries**:
-  - Pandas
-  - NumPy
-  - Scikit-learn
-  - Matplotlib
-  - Seaborn
+### Output 1: Sample Prediction  
+![Output 1](https://github.com/Vijay1097/Prodify_ML_3/raw/main/output.png)
 
----
+### Output 2: Classified Image (Dog)  
+![Output 2](https://github.com/Vijay1097/Prodify_ML_3/raw/main/Dog%20output.png)
 
-## 📊 Features Used
-
-- Square footage
-- Number of bedrooms
-- Number of bathrooms
-- Location
-- Year built
-- Other relevant property features
-
----
-
-## 📈 Process Followed
-
-1. **Data Collection** – Loaded CSV dataset.
-2. **Data Cleaning** – Handled null values, outliers, and duplicates.
-3. **Feature Engineering** – Selected and scaled relevant features.
-4. **Exploratory Data Analysis** – Visualized correlations and distributions.
-5. **Model Building** – Applied Linear Regression and other models.
-6. **Model Evaluation** – Used metrics like MAE, RMSE, and R² score.
-
----
-
-## 🖼️ Output
-
-Below is a sample output visualization from the model:
-
-![House Price Prediction Output](./Task-3.jpg)
-
----
-
-## 📌 Conclusion
-
-- Successfully predicted house prices using regression models.
-- Learned practical implementation of regression, EDA, and evaluation techniques.
-- Gained deeper understanding of model interpretation and feature importance.
-
----
-
-## 📎 Tags
-
-`#MachineLearning` `#DataScience` `#Regression` `#Python` `#HousePricePrediction` `#InternshipProject` `#ProdigyInfotech`
-
----
-
-## 🙌 Acknowledgement
-
-Thanks to **Prodigy InfoTech** for the opportunity and mentorship!
-
+## Directory Structure
