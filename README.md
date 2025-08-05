@@ -33,6 +33,6 @@ A labeled collection of cat and dog images. The dataset was cleaned, resized, co
 ![Output 1](https://github.com/Vijay1097/Prodify_ML_3/blob/main/output.png)
 
 ### Output 2: Classified Image (Dog)  
-![Output 2](https://github.com/Vijay1097/Prodify_ML_3/raw/main/Dog%20output.png)
+![Output 2](https://github.com/Vijay1097/Prodify_ML_3/blob/main/Dog%20output.png)
 
 ## Directory Structure
